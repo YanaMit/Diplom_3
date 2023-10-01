@@ -91,6 +91,7 @@ public class EnterTests extends SetupBrowser {
     }
 
     @Test
+    @DisplayName("Enter by password recovery form")
     public void enterByPasswordRecoveryForm () {
 
         MainPage mainPage = new MainPage(driver);
