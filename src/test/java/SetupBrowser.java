@@ -11,7 +11,7 @@ public class SetupBrowser {
 
     public WebDriver setupBrowser (String browser) {
         if (browser.equals("Firefox")) {
-            System.setProperty("webdriver.gecko.driver", "/Users/svetlana/Documents/WebDriver/bin/geckodriver");
+            System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
             driver = new FirefoxDriver();
         }
         if (browser.equals("Chrome")) {
